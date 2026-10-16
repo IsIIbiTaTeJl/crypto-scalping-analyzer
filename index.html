@@ -35,7 +35,7 @@
 <script>
 'use strict';
 const API='https://data-api.binance.vision/api/v3/klines',WS='wss://data-stream.binance.vision/ws/';
-const ASSETS=['BTCUSDT','ETHUSDT','SOLUSDT','BNBUSDT','XRPUSDT','DOGEUSDT'];
+const ASSETS=['BTCUSDT','ETHUSDT','SOLUSDT','BNBUSDT','XRPUSDT','DOGEUSDT','NEARUSDT','TIAUSDT','FETUSDT','OPUSDT','INJUSDT','FILUSDT','APTUSDT','ARBUSDT','SUIUSDT','DOTUSDT'];
 const TF={"1m":1,"3m":3,"5m":5,"15m":15,"1h":60,"4h":240,"1d":1440,"1w":10080};
 let asset='BTCUSDT',mode='scalp',data={},ws=null,reconnectTimer=null,loading=false;
 const $=id=>document.getElementById(id); const finite=Number.isFinite;
